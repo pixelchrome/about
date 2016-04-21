@@ -1,5 +1,5 @@
 # Readme
-This is a modified version of [Landing Zero Theme](http://www.bootstrapzero.com/theme/landing-zero/) & [Details](http://www.bootstrapzero.com/bootstrap-template/landing-zero-free-bootstrap-theme) ([Download here](http://www.bootstrapzero.com/theme/landing-zero/landingzero_334.zip)) and used as my online resume / CV.
+This is a modified version of [Landing Zero Theme](http://www.bootstrapzero.com/theme/landing-zero/) & [Details](http://www.bootstrapzero.com/bootstrap-template/landing-zero-free-bootstrap-theme) ([Download here](http://www.bootstrapzero.com/theme/landing-zero/landingzero_334.zip)) and used as my [online resume / CV](https://pixelchrome.org/about/).
 
 # Changes vs. original Theme
 * Added [Fontawesome](http://fontawesome.io)
@@ -21,4 +21,4 @@ This is a modified version of [Landing Zero Theme](http://www.bootstrapzero.com/
   * Some Icons I've used are not available.
 
 # License
-The original theme is under GPL License (see [Details](http://www.bootstrapzero.com/bootstrap-template/landing-zero-free-bootstrap-theme))
+The original theme is under GPL License (see [Theme Details](http://www.bootstrapzero.com/bootstrap-template/landing-zero-free-bootstrap-theme))
