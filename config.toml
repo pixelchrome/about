@@ -1,0 +1,289 @@
+# Page settings
+
+baseURL = "https://pixelchrome.org/about/"
+languageCode = "en"
+title = "Harald Dumdey about"
+theme = "hugo-devresume-theme"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "Harald Dumdey"
+    description = "Harald Dumdey Resume/CV"
+
+    primaryColor = "#2E74B5"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Harald Dumdey"
+        tagline = "Solutions Engineer"
+        avatar = "welcome_avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Möhrendorf"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+49 9131 5313909"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:contact@pixelchrome.org"
+        text = "contact@pixelchrome.org"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://pixelchrome.org"
+        text = "pixelchrome.org"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "SAN/NAS/Object Storage"
+        [[params.skills.list.items]]
+        details = "vSphere/HyperV/Openstack"
+        [[params.skills.list.items]]
+        details = "Solaris/FreeBSD/Linux"
+        [[params.skills.list.items]]
+        details = "Ansible"
+        [[params.skills.list.items]]
+        details = "K8S/Docker"
+        [[params.skills.list.items]]
+        details = "MySQL/MongoDB/Oracle"
+        [[params.skills.list.items]]
+        details = "AWS/Google/Azure"
+        [[params.skills.list.items]]
+        details = "Postfix/Dovecot/Mailscanner/RSpamd"
+        [[params.skills.list.items]]
+        details = "Apache/NGINX"
+        [[params.skills.list.items]]
+        details = "Shell/HTML/CSS/Python"
+        [[params.skills.list.items]]
+        details = "Git/Jenkins"
+
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Pre- and Post-Sales"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Escalation handling"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "State-certified engineer (data processing)"
+        university = "Technical College Erlangen"
+        dates = "1996 - 1998"
+
+        [[params.education.list]]
+        degree = "Electronic technician trainee"
+        university = "Siemens Erlangen"
+        dates = "1987 - 1991"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "German"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Running"
+        [[params.interests.list]]
+        name = "Skiing"
+        [[params.interests.list]]
+        name = "Photography"
+
+    [params.summary]
+        enable = true
+        text = "Computer nerd since 1984. IT-Professional since 1997. Creative and positive thinker with 'a different view', Teamplayer & Autodidact."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Solutions Engineer"
+        dates = "2016 - Present"
+        company = "NetApp"
+        details = "In my current role I'm responsible for 'Enterprise Accounts' in Germany. I provide technical knowledge and support to customers with onsite and remote meetings and workshops. With a strong technical knowledge I evaluate customer requirements and design solutions to meet customer needs."
+        [[params.experience.list.items]]
+        details = "German based multinational sports clothing and shoe vendor."
+        [[params.experience.list.items]]
+        details = "Service provider for tax, accountant and attorneys."
+        [[params.experience.list.items]]
+        details = "Several automotive vendors."
+
+        [[params.experience.list]]
+        title = "Global Systems Engineer"
+        dates = "2013 - 2018"
+        company = "NetApp"
+        details = "Presales role for 'Global Accounts' with a similar function to my current role. Dedicated for the largest Europe-based electronics and electrical engineering company headquartered in Munich and Berlin."
+
+        [[params.experience.list]]
+        title = "Global Systems Engineer"
+        dates = "2010 - 2013"
+        company = "NetApp"
+        details = "Presales role for 'Services Provider' with a similar function to my current role. Dedicated for one of the biggest European Service Providers."
+
+        [[params.experience.list]]
+        title = "Technical Global Advisor"
+        dates = "2007 - 2010"
+        company = "NetApp"
+        details = "Proactive & reactive support, single point of contact and coordination of escalations. Dedicated for one of the biggest European Service Provider."
+
+        [[params.experience.list]]
+        title = "Strategic Support Engineer & Proactive Technical Analyst"
+        dates = "1999 - 2007"
+        company = "Sun Microsystems"
+        details = "Complex on-site installations, integration and migrations of high-end server and storage systems had been a part of my job. I also did proactive analysis and recommendations for customers Datacenter environments."
+        [[params.experience.list.items]]
+        details = "Outsourcing- and Telecommunication Providers"
+        [[params.experience.list.items]]
+        details = "Financial industry"
+        [[params.experience.list.items]]
+        details = "Biggest market research institute in Germany"
+        
+        [[params.experience.list]]
+        title = "System Support Engineer"
+        dates = "1998 - 1999"
+        company = "Silicon Graphics"
+        details = "On-site installations, post-sales and technical support for high-end visualization systems and supercomputers (SGI Onyx and Origin)."
+
+        [[params.experience.list]]
+        title = "Laboratory Technician"
+        dates = "1991 - 1998"
+        company = "Siemens"
+        details = "Electromagnetic Compatibility (EMC) testing labs & Laboratory for environmental testing."
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "New NetApp Customer (2020)"
+        meta = "POC"
+        tagline = "All Flash Metrocluster for most critical Database of multibillion dollar company"
+
+        [[params.projects.list]]
+        title = "New NetApp Customer (2018)"
+        meta = "POC"
+        tagline = "All-Flash + tiering to Object Storage + Backup SDS (Media)"
+
+        [[params.projects.list]]
+        title = "New NetApp customer - Service Provider (2017)"
+        meta = "POC"
+
+        [[params.projects.list]]
+        title = "Multi Petabyte (2017)"
+        meta = "RFP"
+        tagline = "Medical solutions company"
+
+        [[params.projects.list]]
+        title = "Large scale All-Flash Storage incl. Backup + DR (2016)"
+        meta = "Storage Design"
+
+        [[params.projects.list]]
+        title = "Transition Several 7toC projects (2015)"
+        meta = "Tech Refresh"
+        tagline = "Several 7toC projects - multi petabyte (7Mode ONTAP to clustered ONTAP)"
+
+        [[params.projects.list]]
+        title = "Siemens PLM Teamcenter (2015)"
+        meta = "Migration"
+        tagline = "One of the largest installations worldwide, Metrocluster, 15000 User"
+
+        [[params.projects.list]]
+        title = "Redesign of the company wide private cloud (2014)"
+        meta = "Tech Refresh"
+        tagline = "Based on clustered Data ONTAP, Metrocluster (cDOT – 1st production system in Germany) and SnapProtect. Applications: VMware vSphere Farm (400 VMs), MS SQL, ORACLE, File shares"
+
+    [params.information]
+        enable = true
+
+    [[params.information.list]]
+        title = "NetApp Specialist Groups"
+        [[params.information.list.items]]
+        details = "DevOps, Cloud Data Services, Security"
+
+        [[params.information.list]]
+        title = "Certification"
+        [[params.information.list.items]]
+        details = "NetApp - NetApp Certified Clustered Data ONTAP Administrator (NCDA - NS0-156)"
+        [[params.information.list.items]]
+        details = "NetApp - Systems Engineer Professional, Backup"
+        [[params.information.list.items]]
+        details = "NetApp - Systems Engineer Professional, Cloud"
+        [[params.information.list.items]]
+        details = "NetApp - Systems Engineer Professional, E-Series"
+        [[params.information.list.items]]
+        details = "NetApp - Systems Engineer Professional, ONTAP"
+        [[params.information.list.items]]
+        details = "SolidFire - Cloud Builder Systems Engineer (CBSE)"
+        [[params.information.list.items]]
+        details = "SolidFire - Cloud Builder Sales Associate (CBSA)"
+        [[params.information.list.items]]
+        details = "Sun Microsystems - Sun certified systems installer for SunCluster"
+
+        [[params.information.list]]
+        title = "Highlights"
+        [[params.information.list.items]]
+        details = "Speaker: Technologie Forum Bayern – DevOps (Fall 2019)"
+        [[params.information.list.items]]
+        details = "Speaker: Technologie Forum Bayern – Ansible (Spring 2019)"
+        [[params.information.list.items]]
+        details = "Speaker: AWS Summit Berlin, Storage for the Cloud (2018)"
+        [[params.information.list.items]]
+        details = "Speaker: Technologie Forum Bayern (2017)"
+        [[params.information.list.items]]
+        details = "Speaker: NetApp Insight Berlin (2016)"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/pixelchrome"
+        title = "pixelchrome"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/hdumdey"
+        title = "hdumdey"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/dataintense"
+        title = "@dataintense"
+        [[params.social.list]]
+        icon = "fas fa-rss-square"
+        url = "https://pixelchrome.org/blog"
+        title = "pixelchrome.org/blog"
+
+[params.footer]
+        copyright = "Harald Dumdey"
