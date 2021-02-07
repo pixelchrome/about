@@ -4,6 +4,9 @@ This is my CV / Resume. I am using [hugo](https://gohugo.io) to generate a stati
 
 # Theme
 
-Currently the [hugo-devresume-theme](https://github.com/cowboysmall-tools/hugo-devresume-theme) is used.
+Currently the [hugo-devresume-theme](https://github.com/cowboysmall-tools/hugo-devresume-theme) is used. 
 
-# 
+```sh
+$ cd themes
+$ git clone https://github.com/cowboysmall-tools/hugo-devresume-theme.git
+```
