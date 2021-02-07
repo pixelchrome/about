@@ -56,7 +56,7 @@ theme = "hugo-devresume-theme"
         [[params.skills.list.items]]
         details = "AWS/Google/Azure"
         [[params.skills.list.items]]
-        details = "Postfix/Dovecot/Mailscanner/RSpamd"
+        details = "Postfix/Dovecot/RSpamd"
         [[params.skills.list.items]]
         details = "Apache/NGINX"
         [[params.skills.list.items]]
