@@ -200,6 +200,7 @@ theme = "hugo-devresume-theme"
         [[params.projects.list]]
         title = "New NetApp customer - Service Provider (2017)"
         meta = "POC"
+        tagline = "Datastore for VMware vSphere based on SolidFire "
 
         [[params.projects.list]]
         title = "Multi Petabyte (2017)"
@@ -255,15 +256,15 @@ theme = "hugo-devresume-theme"
         [[params.information.list]]
         title = "Highlights"
         [[params.information.list.items]]
-        details = "Speaker: Technologie Forum Bayern – DevOps (Fall 2019)"
+        details = "Speaker - Technologie Forum Bayern: DevOps (Fall 2019)"
         [[params.information.list.items]]
-        details = "Speaker: Technologie Forum Bayern – Ansible (Spring 2019)"
+        details = "Speaker - Technologie Forum Bayern: Ansible (Spring 2019)"
         [[params.information.list.items]]
-        details = "Speaker: AWS Summit Berlin, Storage for the Cloud (2018)"
+        details = "Speaker - AWS Summit Berlin: Storage for the Cloud (2018)"
         [[params.information.list.items]]
-        details = "Speaker: Technologie Forum Bayern (2017)"
+        details = "Speaker - Technologie Forum Bayern: DevOps & Container (2017)"
         [[params.information.list.items]]
-        details = "Speaker: NetApp Insight Berlin (2016)"
+        details = "Speaker - NetApp Insight Berlin: Clustered Data ONTAP Case Study (2016)"
 
     [params.social]
         enable = true
