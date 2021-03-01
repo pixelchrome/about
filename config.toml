@@ -198,7 +198,7 @@ theme = "hugo-devresume-theme"
         tagline = "All-Flash + tiering to Object Storage + Backup SDS (Media)"
 
         [[params.projects.list]]
-        title = "New NetApp customer - Service Provider (2017)"
+        title = "New NetApp Customer - Service Provider (2017)"
         meta = "POC"
         tagline = "Datastore for VMware vSphere based on SolidFire "
 
@@ -220,11 +220,6 @@ theme = "hugo-devresume-theme"
         title = "Siemens PLM Teamcenter (2015)"
         meta = "Migration"
         tagline = "One of the largest installations worldwide, Metrocluster, 15000 User"
-
-        [[params.projects.list]]
-        title = "Redesign of the company wide private cloud (2014)"
-        meta = "Tech Refresh"
-        tagline = "Based on clustered Data ONTAP, Metrocluster (cDOT – 1st production system in Germany) and SnapProtect. Applications: VMware vSphere Farm (400 VMs), MS SQL, ORACLE, File shares"
 
     [params.information]
         enable = true
