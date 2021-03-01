@@ -237,6 +237,8 @@ theme = "hugo-devresume-theme"
         [[params.information.list]]
         title = "Certification"
         [[params.information.list.items]]
+        details = "Rancher - Certified Rancher Operator"
+        [[params.information.list.items]]
         details = "NetApp - NetApp Certified Clustered Data ONTAP Administrator (NCDA - NS0-156)"
         [[params.information.list.items]]
         details = "NetApp - Systems Engineer Professional, Backup"
