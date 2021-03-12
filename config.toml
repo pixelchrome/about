@@ -24,11 +24,11 @@ googleAnalytics = "UA-40306725-2"
         location = "Möhrendorf"
 
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
+        icon = "fas fa-phone"
         url = "tel:#"
         text = "+49 9131 5313909"
         [[params.contact.list]]
-        icon = "fas fa-envelope-square"
+        icon = "fas fa-envelope"
         url = "mailto:contact@pixelchrome.org"
         text = "contact@pixelchrome.org"
         [[params.contact.list]]
@@ -42,27 +42,27 @@ googleAnalytics = "UA-40306725-2"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "SAN/NAS/Object Storage"
+        details = "SAN / NAS / Object Storage"
         [[params.skills.list.items]]
-        details = "vSphere/HyperV/Openstack"
+        details = "vSphere / HyperV / Openstack"
         [[params.skills.list.items]]
-        details = "Solaris/FreeBSD/Linux"
+        details = "Solaris / FreeBSD / Linux"
         [[params.skills.list.items]]
         details = "Ansible"
         [[params.skills.list.items]]
-        details = "K8S/Docker"
+        details = "K8S / Docker"
         [[params.skills.list.items]]
-        details = "MySQL/MongoDB/Oracle"
+        details = "MySQL / MongoDB / Oracle"
         [[params.skills.list.items]]
-        details = "AWS/Google/Azure"
+        details = "AWS / Google / Azure"
         [[params.skills.list.items]]
-        details = "Postfix/Dovecot/RSpamd"
+        details = "Postfix / Dovecot / RSpamd"
         [[params.skills.list.items]]
-        details = "Apache/NGINX"
+        details = "Apache / NGINX"
         [[params.skills.list.items]]
-        details = "Shell/HTML/CSS/Python"
+        details = "Shell / HTML / CSS / Python"
         [[params.skills.list.items]]
-        details = "Git/Jenkins"
+        details = "Git / Jenkins"
 
 
         [[params.skills.list]]
@@ -134,7 +134,7 @@ googleAnalytics = "UA-40306725-2"
         title = "Solutions Engineer"
         dates = "2016 - Present"
         company = "NetApp"
-        details = "In my current role I'm responsible for 'Enterprise Accounts' in Germany. I provide technical knowledge and support to customers with onsite and remote meetings and workshops. With a strong technical knowledge I evaluate customer requirements and design solutions to meet customer needs."
+        details = "In my current role I'm responsible for 'Enterprise Accounts' in Germany. I provide technical knowledge and support to customers with onsite and remote meetings, workshops and POCs. With a strong technical knowledge I evaluate customer requirements and design on-premise, hybrid and multicloud solutions to meet customer needs."
         [[params.experience.list.items]]
         details = "German based multinational sports clothing and shoe vendor."
         [[params.experience.list.items]]
