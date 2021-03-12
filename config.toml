@@ -4,7 +4,7 @@ baseURL = "https://pixelchrome.org/about/"
 languageCode = "en"
 title = "Harald Dumdey about"
 theme = "hugo-devresume-theme"
-#googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-40306725-2"
 
 [params]
     author = "Harald Dumdey"
@@ -221,35 +221,48 @@ theme = "hugo-devresume-theme"
         meta = "Migration"
         tagline = "One of the largest installations worldwide, Metrocluster, 15000 User"
 
+    [params.certifications]
+        enable = true
+
+        [[params.certifications.list]]
+        title = "[CRO K101](assets/pdf/202102_RANCHER_Certified_Rancher_Operator.pdf) - Certified Rancher Operator"
+        meta = "Rancher"
+        [[params.certifications.list]]
+        title = "[NSES DevOps](assets/pdf/201904_NTAP_NSES_DevOps.pdf) - NetApp Solutions Engineer Specialist"
+        meta = "NetApp"
+        [[params.certifications.list]]
+        title = "[NSEP Cloud](assets/pdf/201701_NTAP_Certificate_NSEP_Cloud.pdf) - NetApp Systems Engineer Professional"
+        meta = "NetApp"
+        [[params.certifications.list]]
+        title = "[NSEP Data Protection](assets/pdf/201702_NTAP_Certificate_NSEP_Data_Protection.pdf) - NetApp Systems Engineer Professional"
+        meta = "NetApp"
+        [[params.certifications.list]]
+        title = "[NSEP E-Series](assets/pdf/201701_NTAP_Certificate_NSEP_E­Series.pdf) - NetApp Systems Engineer Professional"
+        meta = "NetApp"
+        [[params.certifications.list]]
+        title = "[NSEP ONTAP](assets/pdf/201702_NTAP_Certificate_NSEP_ONTAP.pdf) - NetApp Systems Engineer Professional"
+        meta = "NetApp"
+        [[params.certifications.list]]
+        title = "[CBSE Part 1](assets/pdf/201604_NTAP_Certificate_CBSE.pdf) & [Part 2](assets/pdf/201604_NTAP_Certificate_CBSE2.pdf) - SolidFire Cloud Builder Systems Engineer"
+        meta = "SolidFire"
+        [[params.certifications.list]]
+        title = "[CBSA](assets/pdf/201604_NTAP_Certificate_CBSA.pdf) - SolidFire Cloud Builder Sales Associate"
+        meta = "SolidFire"
+        [[params.certifications.list]]
+        title = "NCDA NS0-156 - NetApp Certified Clustered Data ONTAP Administrator"
+        meta = "NetApp"
+        [[params.certifications.list]]
+        title = "Sun certified systems installer for SunCluster"
+        meta = "Sun Microsystems"
+
     [params.information]
         enable = true
 
     [[params.information.list]]
-        title = "NetApp Specialist Groups"
+        title = "Member of NetApp Specialist Groups"
         [[params.information.list.items]]
         details = "DevOps, Cloud Data Services, Security"
-
-        [[params.information.list]]
-        title = "Certification"
-        [[params.information.list.items]]
-        details = "Rancher - Certified Rancher Operator"
-        [[params.information.list.items]]
-        details = "NetApp - NetApp Certified Clustered Data ONTAP Administrator (NCDA - NS0-156)"
-        [[params.information.list.items]]
-        details = "NetApp - Systems Engineer Professional, Backup"
-        [[params.information.list.items]]
-        details = "NetApp - Systems Engineer Professional, Cloud"
-        [[params.information.list.items]]
-        details = "NetApp - Systems Engineer Professional, E-Series"
-        [[params.information.list.items]]
-        details = "NetApp - Systems Engineer Professional, ONTAP"
-        [[params.information.list.items]]
-        details = "SolidFire - Cloud Builder Systems Engineer (CBSE)"
-        [[params.information.list.items]]
-        details = "SolidFire - Cloud Builder Sales Associate (CBSA)"
-        [[params.information.list.items]]
-        details = "Sun Microsystems - Sun certified systems installer for SunCluster"
-
+        
         [[params.information.list]]
         title = "Highlights"
         [[params.information.list.items]]
@@ -263,11 +276,40 @@ theme = "hugo-devresume-theme"
         [[params.information.list.items]]
         details = "Speaker - NetApp Insight Berlin: Clustered Data ONTAP Case Study (2016)"
 
+    [params.trainings]
+        enable = true
+        
+        [[params.trainings.list]]
+        title = "[Certified Rancher Operator: Level One](assets/pdf/202102_RANCHER_Certified_Rancher_Operator.pdf)"
+        meta = "Rancher"
+        [[params.trainings.list]]
+        title = "[The Complete Kubernetes Course](assets/pdf/201911_Udemy_The_Complete_Kubernetes_Course.pdf)"
+        meta = "Udemy"
+        [[params.trainings.list]]
+        title = "[Advanced Kubernetes Usage](assets/pdf/201911_Udemy_Advanced_Kubernetes_Usage.pdf)"
+        meta = "Udemy"
+        [[params.trainings.list]]
+        title = "[Google Cloud Certified Associate Cloud Engineer](assets/pdf/201909_LA_Google_Cloud_Certified_Associate_Cloud_Engineer.pdf)"
+        meta = "Linux Academy"
+        [[params.trainings.list]]
+        title = "[Kubernetes the hard way](assets/pdf/201902_LA_Kubernetes_the_hard_way.pdf)"
+        meta = "Linux Academy"
+        [[params.trainings.list]]
+        title = "[MongoDB for Developers M101P](assets/pdf/201802_MongoDB_for_Developers_M101P.pdf)"
+        meta = "MongoDB"
+        [[params.trainings.list]]
+        title = "[MongoDB Basics M001](assets/pdf/201711_MongoDB_Basics_M001.pdf)"
+        meta = "MongoDB"
+        [[params.trainings.list]]
+        title = "more than 300 NetApp internal trainings"
+        meta = "NetApp"
+
+
     [params.social]
         enable = true
 
         [[params.social.list]]
-        icon = "fab fa-github-square"
+        icon = "fab fa-github"
         url = "//github.com/pixelchrome"
         title = "pixelchrome"
         [[params.social.list]]
@@ -275,13 +317,17 @@ theme = "hugo-devresume-theme"
         url = "//linkedin.com/in/hdumdey"
         title = "hdumdey"
         [[params.social.list]]
-        icon = "fab fa-twitter-square"
+        icon = "fab fa-twitter"
         url = "//twitter.com/dataintense"
         title = "@dataintense"
         [[params.social.list]]
-        icon = "fas fa-rss-square"
+        icon = "fas fa-rss"
         url = "https://pixelchrome.org/blog"
         title = "pixelchrome.org/blog"
+        [[params.social.list]]
+        icon = "fab fa-docker"
+        url = "https://hub.docker.com/u/pixelchrome"
+        title = "pixelchrome"
 
 [params.footer]
         copyright = "Harald Dumdey"

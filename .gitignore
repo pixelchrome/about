@@ -4,6 +4,7 @@ public/
 resources/_gen/
 hugo_stats.json
 themes/
+static/assets/pdf
 
 ### macOS ###
 # General
