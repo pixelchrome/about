@@ -64,7 +64,6 @@ googleAnalytics = "UA-40306725-2"
         [[params.skills.list.items]]
         details = "Git / Jenkins"
 
-
         [[params.skills.list]]
         title = "Professional"
         [[params.skills.list.items]]
@@ -75,6 +74,18 @@ googleAnalytics = "UA-40306725-2"
         details = "Strong problem solver"
         [[params.skills.list.items]]
         details = "Escalation handling"
+
+    [params.member]
+        enable = true
+
+        [[params.member.list]]
+        title = "Specialist Groups"
+        [[params.member.list.items]]
+        details = "DevOps"
+        [[params.member.list.items]]
+        details = "Cloud Data Services"
+        [[params.member.list.items]]
+        details = "Security"    
 
     [params.education]
         enable = true
@@ -256,25 +267,32 @@ googleAnalytics = "UA-40306725-2"
         meta = "Sun Microsystems"
 
     [params.information]
-        enable = true
-
-    [[params.information.list]]
-        title = "Member of NetApp Specialist Groups"
-        [[params.information.list.items]]
-        details = "DevOps, Cloud Data Services, Security"
+        enable = false
         
         [[params.information.list]]
         title = "Highlights"
         [[params.information.list.items]]
         details = "Speaker - Technologie Forum Bayern: DevOps (Fall 2019)"
-        [[params.information.list.items]]
-        details = "Speaker - Technologie Forum Bayern: Ansible (Spring 2019)"
-        [[params.information.list.items]]
-        details = "Speaker - AWS Summit Berlin: Storage for the Cloud (2018)"
-        [[params.information.list.items]]
-        details = "Speaker - Technologie Forum Bayern: DevOps & Container (2017)"
-        [[params.information.list.items]]
-        details = "Speaker - NetApp Insight Berlin: Clustered Data ONTAP Case Study (2016)"
+
+
+    [params.highlights]
+        enable = true
+
+        [[params.highlights.list]]
+        title = "Speaker - Technologie Forum Bayern: DevOps"
+        meta = "Fall 2019"
+        [[params.highlights.list]]
+        title = "Speaker - Technologie Forum Bayern: Ansible"
+        meta = "Spring 2019"
+        [[params.highlights.list]]
+        title = "Speaker - AWS Summit Berlin: Storage for the Cloud"
+        meta = "2018"
+        [[params.highlights.list]]
+        title = "Speaker - Technologie Forum Bayern: DevOps & Container"
+        meta = "2017"
+        [[params.highlights.list]]
+        title = "Speaker - NetApp Insight Berlin: Clustered Data ONTAP Case Study"
+        meta = "2016"
 
     [params.trainings]
         enable = true
