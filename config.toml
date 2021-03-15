@@ -33,8 +33,8 @@ googleAnalytics = "UA-40306725-2"
         text = "contact@pixelchrome.org"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "https://pixelchrome.org"
-        text = "pixelchrome.org"
+        url = "https://pixelchrome.org/cv"
+        text = "pixelchrome.org/cv"
 
     [params.skills]
         enable = true
@@ -152,6 +152,8 @@ googleAnalytics = "UA-40306725-2"
         details = "Service provider for tax, accountant and attorneys."
         [[params.experience.list.items]]
         details = "Several automotive vendors."
+        [[params.experience.list.items]]
+        details = "Named and hunting accounts until 2018"
 
         [[params.experience.list]]
         title = "Global Systems Engineer"
@@ -175,7 +177,7 @@ googleAnalytics = "UA-40306725-2"
         title = "Strategic Support Engineer & Proactive Technical Analyst"
         dates = "1999 - 2007"
         company = "Sun Microsystems"
-        details = "Complex on-site installations, integration and migrations of high-end server and storage systems had been a part of my job. I also did proactive analysis and recommendations for customers Datacenter environments."
+        details = "Complex on-site installations, integration and migrations of high-end server and (SAN) storage systems had been a part of my job. I also did proactive analysis and recommendations for customers Datacenter environments."
         [[params.experience.list.items]]
         details = "Outsourcing- and Telecommunication Providers"
         [[params.experience.list.items]]
@@ -236,31 +238,35 @@ googleAnalytics = "UA-40306725-2"
         enable = true
 
         [[params.certifications.list]]
-        title = "[CRO K101](assets/pdf/202102_RANCHER_Certified_Rancher_Operator.pdf) - Certified Rancher Operator"
+        title = "Certified Rancher Operator"
+        details = "[CRO K101](assets/pdf/202102_RANCHER_Certified_Rancher_Operator.pdf)"
         meta = "Rancher"
         [[params.certifications.list]]
-        title = "[NSES DevOps](assets/pdf/201904_NTAP_NSES_DevOps.pdf) - NetApp Solutions Engineer Specialist"
+        title = "NetApp Solutions Engineer Specialist"
+        details = "[NSES DevOps - Pilot](assets/pdf/201904_NTAP_NSES_DevOps.pdf)"
         meta = "NetApp"
         [[params.certifications.list]]
-        title = "[NSEP Cloud](assets/pdf/201701_NTAP_Certificate_NSEP_Cloud.pdf) - NetApp Systems Engineer Professional"
+        title = "NetApp Systems Engineer Professional" 
         meta = "NetApp"
+        [[params.certifications.list.items]]
+        details = "[NSEP Cloud](assets/pdf/201701_NTAP_Certificate_NSEP_Cloud.pdf)"
+        [[params.certifications.list.items]]
+        details = "[NSEP Data Protection](assets/pdf/201702_NTAP_Certificate_NSEP_Data_Protection.pdf)"
+        [[params.certifications.list.items]]
+        details = "[NSEP E-Series](assets/pdf/201701_NTAP_Certificate_NSEP_E­Series.pdf)"
+        [[params.certifications.list.items]]
+        details = "[NSEP ONTAP](assets/pdf/201702_NTAP_Certificate_NSEP_ONTAP.pdf)"
         [[params.certifications.list]]
-        title = "[NSEP Data Protection](assets/pdf/201702_NTAP_Certificate_NSEP_Data_Protection.pdf) - NetApp Systems Engineer Professional"
-        meta = "NetApp"
-        [[params.certifications.list]]
-        title = "[NSEP E-Series](assets/pdf/201701_NTAP_Certificate_NSEP_E­Series.pdf) - NetApp Systems Engineer Professional"
-        meta = "NetApp"
-        [[params.certifications.list]]
-        title = "[NSEP ONTAP](assets/pdf/201702_NTAP_Certificate_NSEP_ONTAP.pdf) - NetApp Systems Engineer Professional"
-        meta = "NetApp"
-        [[params.certifications.list]]
-        title = "[CBSE Part 1](assets/pdf/201604_NTAP_Certificate_CBSE.pdf) & [Part 2](assets/pdf/201604_NTAP_Certificate_CBSE2.pdf) - SolidFire Cloud Builder Systems Engineer"
+        title = "SolidFire Cloud Builder Systems Engineer"
+        details = "[CBSE Part 1](assets/pdf/201604_NTAP_Certificate_CBSE.pdf) & [Part 2](assets/pdf/201604_NTAP_Certificate_CBSE2.pdf)"
         meta = "SolidFire"
         [[params.certifications.list]]
-        title = "[CBSA](assets/pdf/201604_NTAP_Certificate_CBSA.pdf) - SolidFire Cloud Builder Sales Associate"
+        title = "SolidFire Cloud Builder Sales Associate"
+        details = "[CBSA](assets/pdf/201604_NTAP_Certificate_CBSA.pdf)"
         meta = "SolidFire"
         [[params.certifications.list]]
-        title = "NCDA NS0-156 - NetApp Certified Clustered Data ONTAP Administrator"
+        title = "NetApp Certified Clustered Data ONTAP Administrator"
+        details = "NCDA NS0-156"
         meta = "NetApp"
         [[params.certifications.list]]
         title = "Sun certified systems installer for SunCluster"
@@ -270,29 +276,25 @@ googleAnalytics = "UA-40306725-2"
         enable = false
         
         [[params.information.list]]
-        title = "Highlights"
+        title = "More Information"
         [[params.information.list.items]]
-        details = "Speaker - Technologie Forum Bayern: DevOps (Fall 2019)"
-
+        details = "more information details"
 
     [params.highlights]
         enable = true
 
         [[params.highlights.list]]
-        title = "Speaker - Technologie Forum Bayern: DevOps"
-        meta = "Fall 2019"
+        title = "Technologie Forum Bayern"
+        tagline = "Speaker - DevOps (Fall 2019), Ansible Spring (2019), DevOps & Container (2017)"
+        meta = "NetApp"
         [[params.highlights.list]]
-        title = "Speaker - Technologie Forum Bayern: Ansible"
-        meta = "Spring 2019"
+        title = "AWS Summit Berlin"
+        tagline = "Speaker - Storage for the Cloud (2018)"
+        meta = "AWS"
         [[params.highlights.list]]
-        title = "Speaker - AWS Summit Berlin: Storage for the Cloud"
-        meta = "2018"
-        [[params.highlights.list]]
-        title = "Speaker - Technologie Forum Bayern: DevOps & Container"
-        meta = "2017"
-        [[params.highlights.list]]
-        title = "Speaker - NetApp Insight Berlin: Clustered Data ONTAP Case Study"
-        meta = "2016"
+        title = "NetApp Insight Berlin"
+        tagline = "Speaker - Storage for the Cloud (2016)"
+        meta = "NetApp"
 
     [params.trainings]
         enable = true
@@ -319,9 +321,7 @@ googleAnalytics = "UA-40306725-2"
         title = "[MongoDB Basics M001](assets/pdf/201711_MongoDB_Basics_M001.pdf)"
         meta = "MongoDB"
         [[params.trainings.list]]
-        title = "more than 300 NetApp internal trainings"
-        meta = "NetApp"
-
+        title = "plus more than 200 internal and external trainings"
 
     [params.social]
         enable = true
@@ -329,6 +329,10 @@ googleAnalytics = "UA-40306725-2"
         [[params.social.list]]
         icon = "fab fa-github"
         url = "//github.com/pixelchrome"
+        title = "pixelchrome"
+        [[params.social.list]]
+        icon = "fab fa-docker"
+        url = "https://hub.docker.com/u/pixelchrome"
         title = "pixelchrome"
         [[params.social.list]]
         icon = "fab fa-linkedin"
@@ -343,9 +347,9 @@ googleAnalytics = "UA-40306725-2"
         url = "https://pixelchrome.org/blog"
         title = "pixelchrome.org/blog"
         [[params.social.list]]
-        icon = "fab fa-docker"
-        url = "https://hub.docker.com/u/pixelchrome"
-        title = "pixelchrome"
+        icon = "fas fa-camera"
+        url = "https://pixelchrome.org"
+        title = "pixelchrome.org"
 
 [params.footer]
         copyright = "Harald Dumdey"
