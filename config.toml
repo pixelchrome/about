@@ -142,10 +142,16 @@ googleAnalytics = "UA-40306725-2"
         enable = true
 
         [[params.experience.list]]
-        title = "Solutions Engineer"
-        dates = "2016 - Present"
+        title = "Cloud & Software Solution Architect "
+        dates = "2021 - Present"
         company = "NetApp"
-        details = "In my current role I'm responsible for 'Enterprise Accounts' in Germany. I provide technical knowledge and support to customers with onsite and remote meetings, workshops and POCs. With a strong technical knowledge I evaluate customer requirements and design on-premise, hybrid and multicloud solutions to meet customer needs."
+        details = "I work with sales specialists and management to create and execute on a strategy for success of NetApps SaaS business in the Europe, Middle East & Africa (EMEA) region. It is my responsibility to understand customer problems and initiatives, architect appropriate solutions, design and run proof-of-concepts and onboard customers into active consumption. My focus is on products for hybrid cloud monitoring, optimisation and data protection."
+
+        [[params.experience.list]]
+        title = "Solutions Engineer"
+        dates = "2016 - 2021"
+        company = "NetApp"
+        details = "In my role as Solutions Engineer, I was responsible for 'Enterprise Accounts' in Germany. I provided technical knowledge and support to customers with on-site and remote meetings, workshops and POCs. With a strong technical background, I evaluated customer requirements and developed on-premise, hybrid and multi-cloud solutions to meet customer needs."
         [[params.experience.list.items]]
         details = "German based multinational sports clothing and shoe vendor."
         [[params.experience.list.items]]
