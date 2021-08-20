@@ -244,6 +244,10 @@ googleAnalytics = "UA-40306725-2"
         enable = true
 
         [[params.certifications.list]]
+        title = "SUSE Certified Administrator"
+        details = "[SCA Rancher 2.5](assets/pdf/202108_SUSE_SCA_RAN2_570.pdf)"
+        meta = "SUSE"
+        [[params.certifications.list]]
         title = "Certified Rancher Operator"
         details = "[CRO K101](assets/pdf/202102_RANCHER_Certified_Rancher_Operator.pdf)"
         meta = "Rancher"
