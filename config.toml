@@ -145,7 +145,7 @@ googleAnalytics = "UA-40306725-2"
         title = "Cloud & Software Solution Architect "
         dates = "2021 - Present"
         company = "NetApp"
-        details = "I work with sales specialists and management to create and execute on a strategy for success of NetApps SaaS business in the Europe, Middle East & Africa (EMEA) region. It is my responsibility to understand customer problems and initiatives, architect appropriate solutions, design and run proof-of-concepts and onboard customers into active consumption. My focus is on products for hybrid cloud monitoring, optimisation and data protection."
+        details = "I work with sales specialists and management to create and execute on a strategy for success of NetApps SaaS business in the DACH (Germany, Austria & Switzerland) region. It is my responsibility to understand customer problems and initiatives, architect appropriate solutions, design and run proof-of-concepts and onboard customers into active consumption. My focus is on products for hybrid cloud monitoring, optimization, troubleshooting and protecting data from ransomware and potential misuse."
 
         [[params.experience.list]]
         title = "Solutions Engineer"
@@ -295,7 +295,7 @@ googleAnalytics = "UA-40306725-2"
 
         [[params.highlights.list]]
         title = "Technologie Forum Bayern"
-        tagline = "Speaker - DevOps (Fall 2019), Ansible Spring (2019), DevOps & Container (2017)"
+        tagline = "Speaker - DevOps (Fall 2019), Ansible (Spring 2019), DevOps & Container (2017)"
         meta = "NetApp"
         [[params.highlights.list]]
         title = "AWS Summit Berlin"

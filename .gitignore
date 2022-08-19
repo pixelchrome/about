@@ -27,3 +27,6 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+
+# Hugo
+.hugo_build.lock
