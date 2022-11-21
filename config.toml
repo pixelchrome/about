@@ -338,7 +338,7 @@ googleAnalytics = "UA-40306725-2"
 
         [[params.social.list]]
         icon = "fab fa-github"
-        url = "//github.com/pixelchrome"
+        url = "https://github.com/pixelchrome"
         title = "pixelchrome"
         [[params.social.list]]
         icon = "fab fa-docker"
@@ -346,12 +346,12 @@ googleAnalytics = "UA-40306725-2"
         title = "pixelchrome"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/hdumdey"
+        url = "https://linkedin.com/in/hdumdey"
         title = "hdumdey"
         [[params.social.list]]
-        icon = "fab fa-twitter"
-        url = "//twitter.com/dataintense"
-        title = "@dataintense"
+        icon = "fab fa-mastodon"
+        url = "https://mastodon.social/@pixelchrome"
+        title = "@pixelchrome@mastodon.social"
         [[params.social.list]]
         icon = "fas fa-rss"
         url = "https://pixelchrome.org/blog"
