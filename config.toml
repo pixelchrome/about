@@ -142,7 +142,7 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.experience.list]]
-        title = "Cloud & Software Solution Architect "
+        title = "Cloud & Software Solution Architect - Observability & Security"
         dates = "2021 - Present"
         company = "NetApp"
         details = "I work with sales specialists and management to create and execute on a strategy for success of NetApps SaaS business in the DACH (Germany, Austria & Switzerland) region. It is my responsibility to understand customer problems and initiatives, architect appropriate solutions, design and run proof-of-concepts and onboard customers into active consumption. My focus is on products for hybrid cloud monitoring, optimization, troubleshooting and protecting data from ransomware and potential misuse."
@@ -356,10 +356,10 @@ theme = "hugo-devresume-theme"
         icon = "fas fa-rss"
         url = "https://pixelchrome.org/blog"
         title = "pixelchrome.org/blog"
-        [[params.social.list]]
-        icon = "fas fa-camera"
-        url = "https://pixelchrome.org"
-        title = "pixelchrome.org"
+        #[[params.social.list]]
+        #icon = "fas fa-camera"
+        #url = "https://pixelchrome.org"
+        #title = "pixelchrome.org"
 
 [params.footer]
         copyright = "Harald Dumdey"
