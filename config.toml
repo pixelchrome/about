@@ -145,33 +145,25 @@ theme = "hugo-devresume-theme"
         title = "Cloud & Software Solution Architect - Observability & Security"
         dates = "2021 - Present"
         company = "NetApp"
-        details = "I work with sales specialists and management to create and execute on a strategy for success of NetApps SaaS business in the DACH (Germany, Austria & Switzerland) region. It is my responsibility to understand customer problems and initiatives, architect appropriate solutions, design and run proof-of-concepts and onboard customers into active consumption. My focus is on products for hybrid cloud monitoring, optimization, troubleshooting and protecting data from ransomware and potential misuse."
+        details = "I work with sales specialists and management to create and execute on a strategy for success of NetApps SaaS business in the DACH (Germany, Austria & Switzerland) region. It is my responsibility to understand customer problems and initiatives, architect appropriate solutions, design and run proof-of-concepts and onboard customers into active consumption. My focus is on products for hybrid cloud observability, monitoring, optimization, troubleshooting and protecting data from ransomware and potential misuse."
 
         [[params.experience.list]]
         title = "Solutions Engineer"
         dates = "2016 - 2021"
         company = "NetApp"
-        details = "In my role as Solutions Engineer, I was responsible for 'Enterprise Accounts' in Germany. I provided technical knowledge and support to customers with on-site and remote meetings, workshops and POCs. With a strong technical background, I evaluated customer requirements and developed on-premise, hybrid and multi-cloud solutions to meet customer needs."
-        [[params.experience.list.items]]
-        details = "German based multinational sports clothing and shoe vendor."
-        [[params.experience.list.items]]
-        details = "Service provider for tax, accountant and attorneys."
-        [[params.experience.list.items]]
-        details = "Several automotive vendors."
-        [[params.experience.list.items]]
-        details = "Named and hunting accounts until 2018"
+        details = "In my roles as Solutions Engineer/Global Systems Engineer, I was responsible for 'Enterprise Accounts' in Germany, a 'Global Account' & a 'Service Provider'. I provided technical knowledge and support to customers with on-site and remote meetings, workshops and POCs. With a strong technical background, I evaluated customer requirements and developed on-premise, hybrid and multi-cloud solutions to meet customer needs."
 
         [[params.experience.list]]
-        title = "Global Systems Engineer"
+        title = "Global Systems Engineer - Global Accounts"
         dates = "2013 - 2018"
         company = "NetApp"
-        details = "Presales role for 'Global Accounts' with a similar function to my current role. Dedicated for the largest Europe-based electronics and electrical engineering company headquartered in Munich and Berlin."
+        details = "Dedicated for the largest Europe-based electronics and electrical engineering company headquartered in Munich and Berlin."
 
         [[params.experience.list]]
-        title = "Global Systems Engineer"
+        title = "Global Systems Engineer - Service Provider"
         dates = "2010 - 2013"
         company = "NetApp"
-        details = "Presales role for 'Services Provider' with a similar function to my current role. Dedicated for one of the biggest European Service Providers."
+        details = "Dedicated for one of the biggest European Service Providers."
 
         [[params.experience.list]]
         title = "Technical Global Advisor"
@@ -184,12 +176,6 @@ theme = "hugo-devresume-theme"
         dates = "1999 - 2007"
         company = "Sun Microsystems"
         details = "Complex on-site installations, integration and migrations of high-end server and (SAN) storage systems had been a part of my job. I also did proactive analysis and recommendations for customers Datacenter environments."
-        [[params.experience.list.items]]
-        details = "Outsourcing- and Telecommunication Providers"
-        [[params.experience.list.items]]
-        details = "Financial industry"
-        [[params.experience.list.items]]
-        details = "Biggest market research institute in Germany"
         
         [[params.experience.list]]
         title = "System Support Engineer"
